@@ -4,6 +4,13 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <AssemblyName>Mod</AssemblyName>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Loader">
+        <HintPath>..\Prism\bin\Release\net10.0\Loader.dll</HintPath>
+      </Reference>
+    </ItemGroup>
 
 </Project>
